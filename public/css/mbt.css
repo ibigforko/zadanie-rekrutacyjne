@@ -1,0 +1,242 @@
+a, .color-logo {
+	color: #d2798d;
+}
+.login-box {
+	background-color: #fff;
+	padding: 10px;
+}
+.img-menu {
+	max-width: 100%;
+}
+label {
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+body {
+    background-color: #ffffff;
+}
+.nav.metismenu > li.nav-header {
+	margin-bottom: 8px;
+}
+th.table-project a, a.link-normal {
+	color: #1b203e;
+}
+th.table-project a:hover, a.link-normal:hover {
+	color: #d2798d;
+}
+.nav > li > a {
+    color: #1b203e;
+}
+.nav > li.active {
+	border-left: 4px solid #1b203e;
+    background: #d1788c;
+}
+ul.nav-second-level {
+    background: #ffffff59;
+	color: #fff;
+}
+.nav-second-level li a {
+	color: #fff;
+}
+.nav-second-level li:last-child {
+    padding-bottom: 0px;
+}
+.wrapper-content {
+    padding: 15px 0px 40px;
+}
+/* a:not([href]):not([tabindex]) {
+    color: #ffffff;
+}*/
+.day-off {
+	background-color: #d1788c0d;
+}
+.ibox-title {
+	background-color: #1b203e;
+	padding: 10px 90px 5px 15px;
+	color: #fff;
+	min-height: 30px;
+}
+.ibox-tools {
+	top: 10px;
+}
+.ibox-tools a {
+    color: #fff !important;
+}
+.ibox-content {
+    border-top-width: 0px;
+	padding: 15px;
+}
+.ibox-table {
+	padding: 3px 3px 10px 3px;
+}
+table {
+	font-size: 12px;
+	font-weight: 400!important;
+}
+.icon-table {
+    font-size: 16px;
+    top: 2px;
+    position: relative;
+}
+.icon-table.inactive {
+	color: #cbcbcb;
+}
+
+.table {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e1a7b47a;
+}
+thead {
+	background-color: #d1788c;
+	color: #fff;
+}
+.table-project thead {
+	color: #1b203e;
+}
+.table-project .label {
+	display: inline-block;
+	padding: 3px 4px 4px 4px;
+	margin-right: 2px;
+	font-size: 10px;
+}
+.table-project h3 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.table-project {
+	font-size: 12px!important;
+	font-weight: 400!important;
+}
+.table-project-hours {
+	text-align: center;
+}
+th {
+	font-weight: 400!important;
+}
+.project-title a {
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+}
+.navbar-top-links li a {
+    padding: 15px 10px;
+    min-height: 50px;
+}
+select.form-control {
+    height: 2.225rem!important;
+}
+.custom-file-label, .custom-file-label::after {
+	border-radius: 0px;
+	border: 1px solid #e5e6e7;
+}
+
+.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--multiple, .select2-container--default.select2-container--focus .select2-selection--multiple {
+	border-radius: 0px;
+	background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    height: 36px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+	padding-top: 2px;
+}
+.select2-dropdown {
+    border: 1px solid #e5e6e7;
+    border-radius: 0px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #e5e6e7;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 5px;
+}
+.eventList {
+	display: block;
+	background-color: #000;
+	color: #fff;
+	padding: 2px 4px;
+	margin-bottom: 2px;
+    border-radius: 3px;
+}
+.col-agile {
+	width: 350px;
+	display: inline-block;
+	 vertical-align:top;
+}
+.feed-activity-list .feed-element {
+    border-bottom: 0px solid #e7eaec;
+}
+.feed-element {
+    padding-bottom: 0px;
+}
+.feed-element, .feed-element .media {
+   margin-top: 5px;
+}
+.feed-element .well {
+	margin-top: 0px;
+    background-color: #e1a7b41f;
+}
+.daterangepicker td, .daterangepicker th {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.daterangepicker .ranges li {
+    color: #1b203e;
+}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover {
+    background: #1b203e;
+    border: 1px solid #1b203e;
+    color: #fff;
+}
+.btn-success {
+    color: #fff;
+    background-color: #1b203e;
+    border-color: #1b203e;
+}
+.ibox-title-input {
+	height:20px;
+	font-size:10px;
+}
+.knowledge-btn {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding: 30px 10px 30px 10px;
+	background-color: #d2798d0f;
+	border: 1px solid #1b203e;
+	border-radius: 5px;
+	color: #1b203e;
+	font-size: 25px;
+}
+.project-list table tr td {
+    padding: 15px 10px 15px 15px;
+    vertical-align: middle;
+}
+.project-title a.knowledge-breadcrums {
+	font-size: 10px;
+	font-weight: 400;
+}
+.knowledge-editor {
+    border: 1px solid #f5f5f5;
+}
+.knowledge-editor-title {
+	background-color: rgba(0, 0, 0, 0.03);
+	padding: 3px;
+	font-size: 11px;
+}
+.knowledge-editor-content {
+	padding: 3px;
+}
+.text-editor {
+	padding: 0px;
+}
+.text-editor .note-editor.note-frame {
+    border: 0px;
+}
+.project-checkbox {
+	max-width: 15px!important;
+}
