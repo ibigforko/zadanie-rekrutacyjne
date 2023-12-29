@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ClientRequest;
-use App\Models\Client;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Session;
+use App\Http\Requests\ClientLogoRequest;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Session;
+use App\Http\Requests\ClientRequest;
+use App\Models\ClientLogo;
+use App\Models\Client;
 
 class ClientController extends Controller
 {
@@ -76,16 +77,28 @@ class ClientController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  Client  $client
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Client $client)
     {
-        $client = Client::find($id);
-        if (!$client) {
-            abort(404);
-        }
-        return view('client.edit', compact('client'));
+        return view('client.edit', [
+            'client' => $client->load('logos')
+        ]);
+    }
+
+    public function addLogo(ClientLogoRequest $request, Client $client)
+    {
+        $request->actualise();
+
+        return back();
+    }
+
+    public function deleteLogo(Client $client, ClientLogo $logo)
+    {
+        $logo->delete();
+        
+        return back();
     }
 
     /**

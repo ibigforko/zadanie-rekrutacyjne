@@ -25,7 +25,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('/client', [App\Http\Controllers\ClientController::class, 'index'])->name('client-index');
     Route::get('/client/create', [App\Http\Controllers\ClientController::class, 'create'])->name('client-create');
-    Route::get('/client/edit/{id}', [App\Http\Controllers\ClientController::class, 'edit'])->name('client-edit');
+    Route::get('/client/edit/{client}', [App\Http\Controllers\ClientController::class, 'edit'])->name('client-edit');
+    Route::post('/client/edit/{client}/logo', [App\Http\Controllers\ClientController::class, 'addLogo'])->name('client-add-logo');
+    Route::delete('/client/logo/{logo}', [App\Http\Controllers\ClientController::class, 'deleteLogo'])->name('client-delete-logo');
     Route::post('/client/store', [App\Http\Controllers\ClientController::class, 'store'])->name('client-store');
     Route::post('/client/update/{id}', [App\Http\Controllers\ClientController::class, 'store'])->name('client-update');
     Route::get('/client/destroy/{id}', [App\Http\Controllers\ClientController::class, 'destroy'])->name('client-destroy');
